@@ -1,0 +1,13 @@
+This Python script does the following:
+
+Load the images from a directory
+Encode all the images using face_recognition library
+Start the webcam to capture frames
+Resize and convert the frames
+Locate the faces in the frames
+Encode the faces in the frames
+Compare the encodings with the known encodings
+If there is a match, mark the attendance of the recognized person in an Attendance.csv file
+To run this script, you need to have a folder named 'ImagesAttendance' in the same directory where this script is located.
+This folder should contain the images of the people for attendance, and the image file should be named with 
+the name of the person.
